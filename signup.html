@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Join DefrilexCX | Sign up</title>
+<meta name="description" content="Join DefrilexCX. Choose how you want to use DefrilexCX." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.min.css" />
+<link rel="stylesheet" href="/assets/marketplace.css" />
+<link rel="stylesheet" href="/assets/gtm.css" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#0a1f5c" />
+</head>
+<body class="theme-auth no-anim">
+
+<div class="auth-video" aria-hidden="true">
+ <video class="auth-video-el" autoplay muted loop playsinline preload="auto" poster="/assets/video/auth-poster.jpg">
+  <source src="/assets/video/hero1.mp4" type="video/mp4" />
+ </video>
+ <div class="auth-video-scrim"></div>
+</div>
+
+<div class="noise"></div>
+
+<main class="auth-wrap">
+ <a href="/" class="auth-logo">
+  <img src="/defrilex-wordmark.png" alt="DefrilexCX" width="2697" height="683" />
+ </a>
+
+ <!-- STEP 1 â€” choose a role -->
+ <div class="auth-card auth-card--wide" id="roleStep">
+  <p class="auth-eyebrow">Get started</p>
+  <h1 class="auth-title">Join DefrilexCX Marketplace.</h1>
+  <p class="auth-sub">Choose how you want to use DefrilexCX Marketplace.</p>
+
+  <div class="role-grid">
+   <button type="button" class="role-card" data-role="worker">
+    <span class="role-icon">
+     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5.5 21a7 7 0 0 1 13 0"/></svg>
+    </span>
+    <h3>I&rsquo;m A Worker</h3>
+    <p>Find jobs and get paid for your services.</p>
+   </button>
+
+   <button type="button" class="role-card" data-role="vendor">
+    <span class="role-icon">
+     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/></svg>
+    </span>
+    <h3>I&rsquo;m A Vendor</h3>
+    <p>Manage your freelancers and get tasks done.</p>
+   </button>
+
+   <button type="button" class="role-card" data-role="client">
+    <span class="role-icon">
+     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6"/><path d="m20 20-3.5-3.5"/></svg>
+    </span>
+    <h3>I&rsquo;m A Client</h3>
+    <p>Find freelancers and get tasks done.</p>
+   </button>
+  </div>
+
+  <p class="auth-foot">Already have an account? <a href="/login">Log in</a></p>
+ </div>
+
+ <!-- STEP 2 â€” create the account -->
+ <div class="auth-card" id="formStep" hidden>
+  <button type="button" class="auth-back" id="backBtn">&larr; Choose a different role</button>
+  <h1 class="auth-title">Create your account</h1>
+  <p class="auth-sub"><span class="role-pill" id="rolePill">Worker</span><span id="roleSub">Find jobs and get paid for your services.</span></p>
+
+  <a href="#" class="auth-google">
+   <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23z"/><path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38z"/></svg>
+   <span>Continue with Google</span>
+  </a>
+
+  <div class="auth-divider"><span>Or</span></div>
+
+  <form class="auth-form" id="signupForm" action="#" method="post" novalidate>
+   <input type="hidden" name="role" id="roleInput" value="worker" />
+   <div class="field">
+    <label for="su-name">Full Name</label>
+    <input id="su-name" name="name" type="text" placeholder="Full Name" autocomplete="name" required />
+   </div>
+   <div class="field">
+    <label for="su-email">Email</label>
+    <input id="su-email" name="email" type="email" placeholder="Email" autocomplete="email" required />
+   </div>
+   <div class="field" id="companyField" hidden>
+    <label for="su-company" id="companyLabel">Company Name</label>
+    <input id="su-company" name="company" type="text" placeholder="Company Name" autocomplete="organization" />
+   </div>
+   <div class="field">
+    <label for="su-pass">Password</label>
+    <input id="su-pass" name="password" type="password" placeholder="Password" autocomplete="new-password" required />
+   </div>
+   <button type="submit" class="btn-primary" style="width:100%;justify-content:center"><span>Create account</span></button>
+  </form>
+
+  <p class="auth-foot">Already have an account? <a href="/login">Log in</a></p>
+ </div>
+
+ <p class="auth-legal">&copy; 2026 DefrilexCX &middot; <a href="/">Back to site</a></p>
+</main>
+
+<script src="/assets/site.min.js"></script>
+<script>
+(function () {
+  var roles = {
+    worker: { label: 'Worker', sub: 'Find jobs and get paid for your services.', company: 'none' },
+    vendor: { label: 'Vendor', sub: 'Manage your freelancers and get tasks done.', company: 'required' },
+    client: { label: 'Client', sub: 'Find freelancers and get tasks done.', company: 'optional' }
+  };
+
+  var roleStep = document.getElementById('roleStep');
+  var formStep = document.getElementById('formStep');
+  var rolePill = document.getElementById('rolePill');
+  var roleSub  = document.getElementById('roleSub');
+  var roleInput = document.getElementById('roleInput');
+  var companyField = document.getElementById('companyField');
+  var companyLabel = document.getElementById('companyLabel');
+  var companyInput = document.getElementById('su-company');
+
+  function applyRole(key) {
+    var r = roles[key];
+    if (!r) return;
+    roleInput.value = key;
+    rolePill.textContent = r.label;
+    roleSub.textContent = ' ' + r.sub;
+
+    if (r.company === 'none') {
+      companyField.hidden = true;
+      companyInput.required = false;
+      companyInput.disabled = true;          // keep it out of the submission
+      companyInput.value = '';
+    } else {
+      companyField.hidden = false;
+      companyInput.disabled = false;
+      companyInput.required = (r.company === 'required');
+      if (r.company === 'required') {
+        companyLabel.textContent = 'Company Name';
+        companyInput.placeholder = 'Company Name';
+      } else {
+        companyLabel.innerHTML = 'Company Name <span class="opt">(optional)</span>';
+        companyInput.placeholder = 'Company Name (optional)';
+      }
+    }
+
+    roleStep.hidden = true;
+    formStep.hidden = false;
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+
+  document.querySelectorAll('.role-card').forEach(function (card) {
+    card.addEventListener('click', function () { applyRole(card.getAttribute('data-role')); });
+  });
+
+  document.getElementById('backBtn').addEventListener('click', function () {
+    formStep.hidden = true;
+    roleStep.hidden = false;
+  });
+
+  // Allow deep-linking e.g. /register?role=vendor
+  var preset = new URLSearchParams(window.location.search).get('role');
+  if (preset && roles[preset]) applyRole(preset);
+})();
+</script>
+</body>
+</html>
+

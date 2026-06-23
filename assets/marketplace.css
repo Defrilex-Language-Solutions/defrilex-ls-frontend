@@ -1,0 +1,157 @@
+/* ==========================================================================
+   DefrilexCX Marketplace — marketplace-only components
+   Loaded AFTER /site/assets/site.min.css. Built strictly from design tokens.
+   NEVER override base styles here; only add marketplace-native UI.
+   Tokens in use: --navy --navy-deep --navy-darker --orange --orange-soft
+   --white --ink --line --line-dark --ease --radius-* --shadow-soft/deep
+   (On body.theme-home, --orange resolves to navy by design — intended.)
+   ========================================================================== */
+
+/* ---- Browse toolbar: search + filter chips ---------------------------- */
+.mkt-toolbar{
+  max-width:1440px;margin:0 auto 40px;padding:0 36px;
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+}
+.mkt-search{position:relative;flex:1 1 320px;min-width:260px}
+.mkt-search input{
+  width:100%;font-family:"Inter",sans-serif;font-size:15px;color:var(--ink);
+  background:var(--white);border:1px solid var(--line);border-radius:var(--radius-pill);
+  padding:14px 18px 14px 46px;outline:none;
+  transition:border-color .3s var(--ease),box-shadow .3s var(--ease);
+}
+.mkt-search input::placeholder{color:rgba(10,14,26,.45)}
+.mkt-search input:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(11,43,141,.08)}
+.mkt-search svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:rgba(10,14,26,.45)}
+
+.mkt-filters{display:flex;gap:8px;flex-wrap:wrap}
+.mkt-chip{
+  font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:var(--radius-pill);
+  padding:11px 16px;transition:color .3s var(--ease),border-color .3s var(--ease),background .3s var(--ease);
+}
+.mkt-chip:hover{color:var(--navy);border-color:var(--navy)}
+.mkt-chip.is-active{background:var(--navy);border-color:var(--navy);color:var(--white)}
+.mkt-chip .ct{opacity:.55;margin-left:6px}
+
+/* ---- Talent / listing card grid --------------------------------------- */
+.mkt-grid{
+  max-width:1440px;margin:0 auto;padding:0 36px;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:24px;
+}
+@media (max-width:1100px){.mkt-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:680px){.mkt-grid{grid-template-columns:1fr}}
+
+.mkt-card{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--radius-md);
+  padding:26px 26px 22px;display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;
+  transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .4s var(--ease);
+}
+.mkt-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-soft);border-color:rgba(11,43,141,.16)}
+.mkt-card.is-hidden{display:none}
+
+.mkt-card-top{display:flex;align-items:center;gap:14px}
+.mkt-avatar{
+  width:52px;height:52px;flex:0 0 auto;border-radius:50%;
+  background:linear-gradient(135deg,var(--navy),var(--navy-deep));color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-family:"Geist Mono",monospace;font-size:15px;letter-spacing:.04em;
+}
+.mkt-id .mkt-name{font-family:"Inter",sans-serif;font-weight:500;font-size:17px;letter-spacing:-.01em;color:var(--ink);line-height:1.2}
+.mkt-id .mkt-role{font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(10,14,26,.55);margin-top:5px}
+
+.mkt-cat{font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);display:inline-flex;align-items:center;gap:8px}
+.mkt-cat::before{content:"";width:6px;height:6px;background:var(--orange);border-radius:50%}
+
+.mkt-card p{font-size:14px;line-height:1.6;color:rgba(10,14,26,.78);margin:0}
+
+.mkt-tags{display:flex;flex-wrap:wrap;gap:6px}
+.mkt-tag{font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:rgba(10,14,26,.7);background:rgba(11,43,141,.05);border-radius:var(--radius-sm);padding:5px 10px}
+
+.mkt-meta{display:flex;align-items:center;gap:8px;font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(10,14,26,.6)}
+.mkt-status{display:inline-flex;align-items:center;gap:7px;color:var(--navy)}
+.mkt-status .dot{width:7px;height:7px;border-radius:50%;background:#2bd66a}
+.mkt-stars{margin-left:auto;color:var(--orange);letter-spacing:.1em}
+
+.mkt-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid var(--line);padding-top:16px}
+.mkt-rate{font-family:"Inter",sans-serif;font-weight:400;font-size:24px;letter-spacing:-.03em;color:var(--ink);line-height:1}
+.mkt-rate .unit{font-family:"Instrument Serif",serif;font-style:italic;color:var(--orange);font-size:16px;margin-left:2px}
+.mkt-link{
+  font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);
+  display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid var(--ink);padding-bottom:4px;
+  transition:color .3s var(--ease),border-color .3s var(--ease),gap .3s var(--ease);
+}
+.mkt-link:hover{color:var(--orange);border-color:var(--orange);gap:11px}
+
+/* ---- Section count meta (right of section-head, optional) ------------- */
+.mkt-resultcount{font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(10,14,26,.5)}
+
+/* ======================================================================
+   /browse page — filter sidebar + results + pagination
+   ====================================================================== */
+.browse-head{max-width:1440px;margin:0 auto;padding:0 36px}
+.browse-toolbar-wide{max-width:1440px;margin:0 auto 8px;padding:0 36px}
+
+.browse-wrap{
+  max-width:1440px;margin:0 auto;padding:0 36px;
+  display:grid;grid-template-columns:264px 1fr;gap:48px;align-items:start;
+}
+@media(max-width:980px){.browse-wrap{grid-template-columns:1fr;gap:32px}}
+
+.browse-aside{position:sticky;top:96px}
+@media(max-width:980px){.browse-aside{position:static}}
+.filter-group{border-top:1px solid var(--line);padding:20px 0}
+.filter-group:first-child{border-top:0;padding-top:0}
+.filter-group h4{
+  font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink);opacity:.55;margin-bottom:14px;font-weight:500;
+}
+.filter-opt{display:flex;align-items:center;gap:11px;padding:7px 0;font-size:14px;color:var(--ink)}
+.filter-opt input{appearance:none;-webkit-appearance:none;width:16px;height:16px;flex:0 0 auto;border:1px solid var(--line);border-radius:5px;background:#fff;position:relative;transition:background .2s var(--ease),border-color .2s var(--ease);cursor:pointer}
+.filter-opt input:checked{background:var(--navy);border-color:var(--navy)}
+.filter-opt input:checked::after{content:"";position:absolute;left:5px;top:2px;width:4px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.filter-opt input:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.filter-opt .n{margin-left:auto;font-family:"Geist Mono",monospace;font-size:11px;color:rgba(10,14,26,.4)}
+.filter-reset{margin-top:8px;font-family:"Geist Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);border-bottom:1px solid transparent;transition:border-color .3s var(--ease)}
+.filter-reset:hover{border-color:var(--orange)}
+
+.browse-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:28px}
+.browse-count{font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(10,14,26,.6)}
+.browse-count b{color:var(--ink);font-weight:500}
+.browse-sort{display:inline-flex;align-items:center;gap:10px;font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(10,14,26,.55)}
+.browse-sort select{
+  font-family:"Geist Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-pill);padding:9px 34px 9px 14px;cursor:pointer;
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%230a0e1a' stroke-width='1.4' fill='none'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;
+  transition:border-color .3s var(--ease);
+}
+.browse-sort select:focus{outline:none;border-color:var(--navy)}
+
+.browse-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:1280px){.browse-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.browse-grid{grid-template-columns:1fr}}
+
+.browse-empty{display:none;padding:64px 0;text-align:center;font-family:"Instrument Serif",serif;font-style:italic;font-size:24px;color:rgba(10,14,26,.55)}
+.browse-empty.show{display:block}
+
+.pagination{display:flex;gap:8px;justify-content:center;align-items:center;margin-top:52px}
+.page-link{
+  font-family:"Geist Mono",monospace;font-size:12px;min-width:40px;height:40px;padding:0 12px;
+  display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:10px;
+  color:var(--ink);background:#fff;transition:border-color .3s var(--ease),color .3s var(--ease),background .3s var(--ease);
+}
+.page-link:hover{border-color:var(--navy);color:var(--navy)}
+.page-link.is-active{background:var(--navy);border-color:var(--navy);color:#fff}
+.page-link.is-dots{border:0;background:0 0;pointer-events:none;opacity:.5}
+
+/* ---- Dark-section variants (when inside .section-pad.dark) ------------- */
+.section-pad.dark .mkt-card{background:rgba(255,255,255,.03);border-color:var(--line-dark)}
+.section-pad.dark .mkt-card p{color:rgba(255,255,255,.78)}
+.section-pad.dark .mkt-id .mkt-name{color:#fff}
+.section-pad.dark .mkt-tag{background:rgba(255,255,255,.06);color:rgba(255,255,255,.75)}
+.section-pad.dark .mkt-rate{color:#fff}
+.section-pad.dark .mkt-link{color:#fff;border-color:rgba(255,255,255,.45)}
+.section-pad.dark .mkt-search input{background:rgba(255,255,255,.04);border-color:var(--line-dark);color:#fff}
+.section-pad.dark .mkt-chip{background:rgba(255,255,255,.04);border-color:var(--line-dark);color:rgba(255,255,255,.82)}
+.section-pad.dark .mkt-chip.is-active{background:var(--orange);border-color:var(--orange);color:var(--ink)}

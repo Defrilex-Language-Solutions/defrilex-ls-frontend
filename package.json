@@ -1,0 +1,9 @@
+{
+  "name": "defrilex-ls",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . --listen 3000",
+    "preview": "npx serve . --listen 3000"
+  }
+}

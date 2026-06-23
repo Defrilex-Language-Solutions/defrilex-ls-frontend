@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Defrilex Gig CX">
+  <defs>
+    <radialGradient id="dlx-globe" cx="38%" cy="36%" r="65%">
+      <stop offset="0%" stop-color="#3a6dd6"/>
+      <stop offset="55%" stop-color="#1a3a8e"/>
+      <stop offset="100%" stop-color="#0a1832"/>
+    </radialGradient>
+    <linearGradient id="dlx-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc46e"/>
+      <stop offset="55%" stop-color="#f89100"/>
+      <stop offset="100%" stop-color="#d96a00"/>
+    </linearGradient>
+    <radialGradient id="dlx-spark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe7b8"/>
+      <stop offset="55%" stop-color="#ffb14a"/>
+      <stop offset="100%" stop-color="#f89100"/>
+    </radialGradient>
+    <radialGradient id="dlx-shine" cx="32%" cy="28%" r="40%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.55)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <clipPath id="dlx-clip"><circle cx="32" cy="32" r="22"/></clipPath>
+  </defs>
+
+  <!-- outer ring -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#dlx-orange)" stroke-width="1.4" opacity="0.55"/>
+
+  <!-- globe sphere -->
+  <circle cx="32" cy="32" r="22" fill="url(#dlx-globe)"/>
+
+  <!-- continents (stylised silhouettes) -->
+  <g clip-path="url(#dlx-clip)" fill="#ffb14a" opacity="0.85">
+    <path d="M14 24 q3 -3 7 -2 q4 1 5 4 q1 3 -2 4 q-3 1 -6 0 q-4 -1 -4 -6z"/>
+    <path d="M28 18 q3 -1 5 1 q2 3 0 5 q-3 2 -5 0 q-2 -3 0 -6z"/>
+    <path d="M36 28 q4 -1 7 2 q3 3 1 7 q-2 3 -6 2 q-4 -1 -5 -5 q-1 -4 3 -6z"/>
+    <path d="M22 38 q3 0 5 3 q2 3 0 5 q-3 2 -6 0 q-3 -2 -2 -5 q1 -3 3 -3z"/>
+    <path d="M40 44 q3 -1 4 1 q1 3 -1 4 q-3 1 -4 -1 q-1 -2 1 -4z"/>
+  </g>
+
+  <!-- meridians/parallels -->
+  <g fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="0.7">
+    <ellipse cx="32" cy="32" rx="22" ry="22"/>
+    <ellipse cx="32" cy="32" rx="22" ry="9"/>
+    <ellipse cx="32" cy="32" rx="9" ry="22"/>
+    <ellipse cx="32" cy="32" rx="22" ry="15"/>
+  </g>
+
+  <!-- highlight gloss -->
+  <circle cx="32" cy="32" r="22" fill="url(#dlx-shine)"/>
+
+  <!-- orbital arc -->
+  <ellipse cx="32" cy="32" rx="28" ry="11" fill="none"
+           stroke="url(#dlx-orange)" stroke-width="1.8"
+           stroke-linecap="round" transform="rotate(-28 32 32)"/>
+
+  <!-- node sparks on the orbit -->
+  <circle cx="55" cy="22" r="2.6" fill="url(#dlx-spark)"/>
+  <circle cx="9"  cy="42" r="2.0" fill="url(#dlx-spark)" opacity="0.9"/>
+  <circle cx="44" cy="50" r="1.4" fill="#ffb14a" opacity="0.75"/>
+</svg>
