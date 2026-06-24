@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Auth pages carry their own noindex; no need to disallow here.
+
+Sitemap: https://defrilex-ls.com/sitemap.xml

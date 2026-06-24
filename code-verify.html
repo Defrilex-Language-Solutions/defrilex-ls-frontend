@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Verify Code | Defrilex Language Solutions</title>
+<meta name="description" content="Enter the verification code sent to your email." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.min.css" />
+<link rel="stylesheet" href="/assets/marketplace.css" />
+<link rel="stylesheet" href="/assets/gtm.css" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#0b2b8d" />
+<style>
+.auth-icon{width:64px;height:64px;background:rgba(255,255,255,.08);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;color:rgba(255,255,255,.85)}
+.otp-email{display:block;text-align:center;font-size:.88rem;color:rgba(255,255,255,.55);margin:0 0 28px;line-height:1.5}
+.otp-email strong{color:#fff;font-weight:500}
+.otp-group{display:flex;gap:10px;justify-content:center;margin:0 0 28px}
+.otp-box{
+  width:48px;height:56px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:12px;
+  background:rgba(255,255,255,.05);
+  color:#fff;
+  font-size:22px;font-weight:600;text-align:center;
+  font-family:'Geist Mono',monospace;
+  transition:border-color .2s,background .2s,box-shadow .2s;
+  caret-color:var(--orange);
+}
+.otp-box:focus{outline:none;border-color:rgba(255,255,255,.55);background:rgba(255,255,255,.09);box-shadow:0 0 0 4px rgba(255,255,255,.05)}
+.otp-box.has-val{border-color:rgba(255,255,255,.35)}
+.otp-error{color:#f87171;font-size:.85rem;text-align:center;margin-bottom:10px;display:none}
+.otp-error.show{display:block}
+.auth-submit:disabled{opacity:.45;cursor:not-allowed}
+.auth-resend{background:none;border:0;font-family:'Geist Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.55);cursor:pointer;padding:0;transition:color .2s}
+.auth-resend:hover{color:var(--orange)}
+</style>
+</head>
+<body class="theme-auth">
+
+<div class="auth-video" aria-hidden="true">
+ <video class="auth-video-el" autoplay muted loop playsinline preload="auto" poster="/assets/video/auth-poster.jpg">
+  <source src="/assets/video/hero1.mp4" type="video/mp4" />
+ </video>
+ <div class="auth-video-scrim"></div>
+</div>
+
+<div class="noise"></div>
+
+<main class="auth-wrap">
+ <a href="/" class="auth-logo" data-mag>
+  <img src="/defrilex-wordmark.png" alt="Defrilex Language Solutions" width="2697" height="683" />
+ </a>
+
+ <div class="auth-card">
+  <button type="button" class="auth-back" onclick="history.back()">&#8592; Back</button>
+
+  <div class="auth-icon" aria-hidden="true">
+   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+  </div>
+
+  <p class="auth-eyebrow">Check your email</p>
+  <h1 class="auth-title">Enter the code</h1>
+  <p class="otp-email" id="otpEmailLine">We sent a 6-digit code to <strong id="otpEmailAddr">your email</strong></p>
+
+  <form id="otpForm" action="#" method="post" novalidate>
+   <div class="otp-group" id="otpGroup" role="group" aria-label="6-digit verification code">
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" autocomplete="one-time-code" aria-label="Digit 1" />
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" aria-label="Digit 2" />
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" aria-label="Digit 3" />
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" aria-label="Digit 4" />
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" aria-label="Digit 5" />
+    <input class="otp-box" type="text" inputmode="numeric" maxlength="1" pattern="[0-9]" aria-label="Digit 6" />
+   </div>
+
+   <p class="otp-error" id="otpError">Invalid code. Please check and try again.</p>
+
+   <button type="submit" class="btn-primary auth-submit" id="verifyBtn" style="width:100%;justify-content:center" disabled>
+    <span>Verify Code</span>
+   </button>
+  </form>
+
+  <p class="auth-foot">
+   Didn&rsquo;t receive it?
+   <button type="button" class="auth-resend" id="resendBtn">Resend code</button>
+  </p>
+ </div>
+
+ <p class="auth-legal">&copy; 2026 Defrilex Language Solutions &middot; <a href="/">Back to site</a></p>
+</main>
+
+<script src="/assets/site.min.js"></script>
+<script>
+(function(){
+  // Show the email address from the query string
+  var params = new URLSearchParams(window.location.search);
+  var email  = params.get('email') || '';
+  if (email) document.getElementById('otpEmailAddr').textContent = email;
+
+  var boxes     = Array.from(document.querySelectorAll('.otp-box'));
+  var verifyBtn = document.getElementById('verifyBtn');
+  var otpError  = document.getElementById('otpError');
+
+  function getCode(){ return boxes.map(function(b){ return b.value; }).join(''); }
+  function checkComplete(){ verifyBtn.disabled = getCode().length < 6; }
+
+  boxes.forEach(function(box, i){
+    box.addEventListener('input', function(){
+      var val = box.value.replace(/[^0-9]/g, '');
+      box.value = val.slice(-1);
+      box.classList.toggle('has-val', !!box.value);
+      if (box.value && i < boxes.length - 1) boxes[i + 1].focus();
+      checkComplete();
+    });
+
+    box.addEventListener('keydown', function(e){
+      if (e.key === 'Backspace' && !box.value && i > 0) {
+        boxes[i - 1].value = '';
+        boxes[i - 1].classList.remove('has-val');
+        boxes[i - 1].focus();
+        checkComplete();
+      }
+    });
+
+    box.addEventListener('paste', function(e){
+      e.preventDefault();
+      var text = (e.clipboardData || window.clipboardData).getData('text').replace(/[^0-9]/g, '').slice(0, 6);
+      text.split('').forEach(function(ch, j){
+        if (boxes[j]) { boxes[j].value = ch; boxes[j].classList.add('has-val'); }
+      });
+      var next = Math.min(text.length, boxes.length - 1);
+      boxes[next].focus();
+      checkComplete();
+    });
+  });
+
+  document.getElementById('otpForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var code = getCode();
+    if (code.length < 6) return;
+    otpError.classList.remove('show');
+    // In production: POST to /password/verify-code
+    window.location.href = '/reset-password?email=' + encodeURIComponent(email);
+  });
+
+  document.getElementById('resendBtn').addEventListener('click', function(){
+    boxes.forEach(function(b){ b.value = ''; b.classList.remove('has-val'); });
+    verifyBtn.disabled = true;
+    boxes[0].focus();
+    // In production: POST to /password/email to resend
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
-  "name": "DefrilexCX",
-  "short_name": "DefrilexCX",
+  "name": "Defrilex Language Solutions",
+  "short_name": "Defrilex LS",
   "icons": [
     {
       "src": "/assets/favicon/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#0b2b8d",
   "background_color": "#ffffff",
   "display": "standalone"
 }
