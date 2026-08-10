@@ -1,0 +1,410 @@
+/* Job detail page — /jobs/<slug>
+   Scoped to the generated job pages plus two additions to the board on /talent.
+   Everything here rides on the tokens already defined in site.min.css. */
+
+/* ---------- hero ---------- */
+
+.job-hero {
+  padding-bottom: 3.2rem;
+}
+
+.job-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1.6rem;
+}
+
+.job-hero-grid > div h1 {
+  margin: 0.9rem 0 0;
+  max-width: 18ch;
+}
+
+.job-hero-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.job-hero-meta {
+  margin: 1.1rem 0 1.3rem;
+}
+
+.job-hero-grid .g-lead {
+  max-width: 60ch;
+}
+
+.job-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+}
+
+.job-share {
+  background: none;
+  border: 1px solid rgba(11, 43, 141, 0.28);
+  color: var(--navy, #0b2b8d);
+  border-radius: 999px;
+  padding: 0.72rem 1.25rem;
+  font-size: 0.86rem;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.job-share:hover {
+  background: rgba(11, 43, 141, 0.06);
+  border-color: rgba(11, 43, 141, 0.5);
+}
+
+.job-share.is-copied {
+  background: #0f7a3d;
+  border-color: #0f7a3d;
+  color: #fff;
+}
+
+/* ---------- at-a-glance panel ---------- */
+
+.job-facts {
+  border: 1px solid rgba(11, 43, 141, 0.16);
+  border-radius: 14px;
+  padding: 1.5rem 1.5rem 1.35rem;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 6.5rem;
+}
+
+.job-facts-title {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(20, 24, 40, 0.5);
+  margin: 0 0 1.1rem;
+  font-weight: 500;
+}
+
+.job-facts dl {
+  margin: 0;
+}
+
+.job-fact {
+  padding: 0.72rem 0;
+  border-top: 1px solid rgba(11, 43, 141, 0.1);
+}
+
+.job-fact:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.job-fact dt {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(20, 24, 40, 0.45);
+  margin-bottom: 0.28rem;
+}
+
+.job-fact dd {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: rgba(20, 24, 40, 0.88);
+}
+
+.job-facts-apply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.35rem;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  background: var(--navy, #0b2b8d);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.job-facts-apply:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+/* ---------- body ---------- */
+
+.job-body {
+  padding-top: 0;
+}
+
+.job-body-wrap {
+  max-width: 760px;
+}
+
+.jobsec {
+  margin-bottom: 2.9rem;
+}
+
+.jobsec-intro p {
+  font-size: 1.06rem;
+  line-height: 1.72;
+  color: rgba(20, 24, 40, 0.82);
+  margin: 0 0 1.05rem;
+}
+
+.jobsec-intro p:first-child {
+  font-size: 1.16rem;
+  color: rgba(20, 24, 40, 0.92);
+}
+
+.jobsec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgba(11, 43, 141, 0.14);
+}
+
+.jobsec-num {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: rgba(11, 43, 141, 0.55);
+}
+
+.jobsec-title {
+  font-size: 1.32rem;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.jobsec-subtitle {
+  font-size: 1.02rem;
+  margin: 0 0 0.75rem;
+  font-weight: 500;
+}
+
+.jobsec-sub {
+  margin-top: -1.4rem;
+}
+
+.job-list,
+.job-steps {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+.job-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job-list li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.62rem;
+  line-height: 1.62;
+  color: rgba(20, 24, 40, 0.82);
+}
+
+.job-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(11, 43, 141, 0.42);
+}
+
+.job-steps li {
+  margin-bottom: 0.62rem;
+  line-height: 1.62;
+  color: rgba(20, 24, 40, 0.82);
+  padding-left: 0.3rem;
+}
+
+.jobsec-note,
+.jobsec-p {
+  margin: 1rem 0 0;
+  line-height: 1.68;
+  color: rgba(20, 24, 40, 0.7);
+}
+
+.jobsec-p {
+  color: rgba(20, 24, 40, 0.82);
+  margin-bottom: 0.9rem;
+}
+
+.jobsec-note {
+  font-size: 0.93rem;
+  font-style: italic;
+}
+
+/* ---------- inline CTA + back link ---------- */
+
+.job-cta-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1.8rem;
+  border-radius: 14px;
+  background: rgba(11, 43, 141, 0.05);
+  border: 1px solid rgba(11, 43, 141, 0.14);
+  margin: 3.2rem 0 2rem;
+}
+
+.job-cta-inline h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.job-cta-inline p {
+  margin: 0;
+  color: rgba(20, 24, 40, 0.66);
+  font-size: 0.94rem;
+}
+
+.job-back a {
+  color: rgba(20, 24, 40, 0.6);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.job-back a:hover {
+  color: var(--navy, #0b2b8d);
+}
+
+/* ---------- board additions on /talent ---------- */
+
+/* Card titles are links to the job page now. */
+.job-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.job-title a:hover {
+  color: var(--navy, #0b2b8d);
+}
+
+/* Highlight the card a /talent#DFX-... deep link points at. */
+.job-card.is-linked {
+  outline: 2px solid rgba(11, 43, 141, 0.55);
+  outline-offset: 4px;
+  transition: outline-color 0.4s;
+}
+
+/* ---------- "applying for" banner on the auth pages ----------
+   Shown on /login and /register when a job id is in play, so an applicant
+   who arrived from a role never loses that context. Dark theme: these pages
+   use .theme-auth over a video background. */
+
+.apply-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  max-width: 560px;
+  margin: 0 auto 1.1rem;
+  padding: 0.85rem 1.15rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.apply-banner-eye {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.apply-banner-title {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.apply-banner-id {
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+  padding: 2px 7px;
+}
+
+.apply-banner-link {
+  margin-left: auto;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.apply-banner-link:hover {
+  color: #fff;
+}
+
+/* Secondary "already have an account" line under the job page apply button. */
+.job-hero-alt {
+  margin: 0.9rem 0 0;
+  font-size: 0.92rem;
+  color: rgba(20, 24, 40, 0.6);
+}
+
+.job-hero-alt a {
+  color: var(--navy, #0b2b8d);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 900px) {
+  .job-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+
+  .job-facts {
+    position: static;
+  }
+
+  .job-hero-grid > div h1 {
+    max-width: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .job-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .job-share {
+    width: 100%;
+  }
+
+  .job-cta-inline {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

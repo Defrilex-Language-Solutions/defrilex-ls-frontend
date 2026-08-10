@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="/assets/site.min.css" />
 <link rel="stylesheet" href="/assets/marketplace.css" />
 <link rel="stylesheet" href="/assets/gtm.css" />
+<link rel="stylesheet" href="/assets/job.css" />
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
 <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
@@ -34,6 +35,13 @@
   <img src="/defrilex-wordmark.png" alt="Defrilex Language Solutions" width="2697" height="683" />
  </a>
 
+ <div class="apply-banner" id="applyBanner" hidden>
+  <span class="apply-banner-eye">Applying for</span>
+  <span class="apply-banner-title" id="applyBannerTitle"></span>
+  <span class="apply-banner-id" id="applyBannerId"></span>
+  <a class="apply-banner-link" id="applyBannerLink" href="/talent#openings">View role</a>
+ </div>
+
  <div class="auth-card">
   <p class="auth-eyebrow">Sign in</p>
   <h1 class="auth-title">Welcome back</h1>
@@ -47,6 +55,7 @@
   <div class="auth-divider"><span>Or</span></div>
 
   <form class="auth-form" action="#" method="post" novalidate>
+   <input type="hidden" name="job_id" id="jobInput" value="" />
    <div class="field">
     <label for="auth-id">Username or Email</label>
     <input id="auth-id" name="identifier" type="text" placeholder="Username or Email" autocomplete="username" required />
@@ -73,6 +82,8 @@
 </main>
 
 <script src="/assets/site.min.js"></script>
+<script src="/assets/js/jobs-index.js"></script>
+<script src="/assets/js/job-context.js"></script>
 <script>
 (function(){
   var inp = document.getElementById('auth-pass');

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npx serve . --listen 3000",
-    "preview": "npx serve . --listen 3000"
+    "preview": "npx serve . --listen 3000",
+    "build:jobs": "node scripts/build-jobs.mjs"
   }
 }

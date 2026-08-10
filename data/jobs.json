@@ -1,0 +1,782 @@
+{
+  "site": {
+    "origin": "https://defrilex-ls.com",
+    "organization": "Defrilex Language Solutions",
+    "logo": "https://defrilex-ls.com/defrilex-wordmark.png",
+    "ogImage": "https://defrilex-ls.com/assets/img/og-image.png",
+    "applyBase": "/register",
+    "loginBase": "/login",
+    "_applyBaseNote": "Set applyBase/loginBase to 'https://app.defrilex-ls.com/register' and '.../login' to send applicants straight to the app. The job id is appended as ?job=<ID> either way.",
+    "cardLimit": 2
+  },
+  "jobs": [
+    {
+      "id": "DFX-INT-160",
+      "slug": "mandarin-cantonese-interpreter",
+      "title": "Mandarin and Cantonese Interpreter",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Interpretation",
+      "languages": ["Mandarin", "Cantonese"],
+      "languagePairs": "English–Mandarin / English–Cantonese",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Mandarin & Cantonese"],
+      "summary": "Defrilex is expanding its global network of Mandarin and Cantonese interpreters. Support healthcare providers and patients through accurate, professional, and culturally appropriate language services. No prior professional interpreting experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Mandarin, or English and Cantonese",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior professional interpreting experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of Mandarin and Cantonese interpreters for upcoming interpretation opportunities.",
+        "This is an opportunity to join our growing international interpreter network and support healthcare providers and patients through accurate, professional, and culturally appropriate language services.",
+        "No prior professional interpreting experience is required. We welcome qualified candidates from around the world who are fluent in English and Mandarin or Cantonese and are interested in building experience in the interpreting field."
+      ],
+      "responsibilities": [
+        "Provide accurate and culturally appropriate interpretation between English and Mandarin or Cantonese.",
+        "Facilitate clear communication between healthcare providers and patients during medical appointments and healthcare interactions.",
+        "Interpret conversations accurately while maintaining the meaning, tone, and intent of the original communication.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote interpretation.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned interpretation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Mandarin, or English and Cantonese.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional and healthcare-related conversations.",
+        "Quiet and professional workspace suitable for remote interpretation.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior professional interpreting experience required."
+      ],
+      "preferredQualifications": [
+        "Medical Interpreter Certification.",
+        "HIPAA Certification.",
+        "Previous experience with OPI (Over-the-Phone Interpretation).",
+        "Previous experience with VRI (Video Remote Interpretation).",
+        "Previous healthcare, customer service, or language-services experience.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Medical Interpreter Certificate, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior interpreting experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Mandarin or Cantonese language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Interpreter orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global interpreter network and may be contacted for future interpretation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "Whether you are an experienced interpreter or new to professional interpreting, if you have strong English and Mandarin or Cantonese language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global interpreter network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Mandarin & Cantonese Interpreter — Remote Worldwide",
+        "description": "Remote worldwide interpreter opportunity for fluent English–Mandarin and English–Cantonese speakers. Independent contractor, flexible schedule, no prior interpreting experience required."
+      }
+    },
+    {
+      "id": "DFX-INT-145",
+      "slug": "spanish-interpreter",
+      "title": "Spanish Interpreter",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Interpretation",
+      "languages": ["Spanish"],
+      "languagePairs": "English–Spanish",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Spanish"],
+      "summary": "Defrilex is expanding its global network of Spanish interpreters. Support healthcare providers and patients through accurate, professional, and culturally appropriate language services. No prior professional interpreting experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Spanish",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior professional interpreting experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of Spanish interpreters for upcoming interpretation opportunities.",
+        "This is an opportunity to join our growing international interpreter network and support healthcare providers and patients through accurate, professional, and culturally appropriate language services.",
+        "No prior professional interpreting experience is required. We welcome qualified candidates from around the world who are fluent in English and Spanish and are interested in building experience in the interpreting field."
+      ],
+      "responsibilities": [
+        "Provide accurate and culturally appropriate interpretation between English and Spanish.",
+        "Facilitate clear communication between healthcare providers and patients during medical appointments and healthcare interactions.",
+        "Interpret conversations accurately while maintaining the meaning, tone, and intent of the original communication.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote interpretation.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned interpretation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Spanish.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional and healthcare-related conversations.",
+        "Quiet and professional workspace suitable for remote interpretation.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior professional interpreting experience required."
+      ],
+      "preferredQualifications": [
+        "Medical Interpreter Certification.",
+        "HIPAA Certification.",
+        "Previous experience with OPI (Over-the-Phone Interpretation).",
+        "Previous experience with VRI (Video Remote Interpretation).",
+        "Previous healthcare, customer service, or language-services experience.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Medical Interpreter Certificate, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior interpreting experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Spanish language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Interpreter orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global interpreter network and may be contacted for future interpretation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "Whether you are an experienced interpreter or new to professional interpreting, if you have strong English and Spanish language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global interpreter network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Spanish Interpreter — Remote Worldwide",
+        "description": "Remote worldwide interpreter opportunity for fluent English–Spanish speakers. Independent contractor, flexible schedule, no prior interpreting experience required."
+      }
+    },
+    {
+      "id": "DFX-INT-208",
+      "slug": "arabic-interpreter",
+      "title": "Arabic Interpreter",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Interpretation",
+      "languages": ["Arabic"],
+      "languagePairs": "English–Arabic",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Arabic"],
+      "summary": "Defrilex is expanding its global network of Arabic interpreters. Support healthcare providers and patients through accurate, professional, and culturally appropriate language services. No prior professional interpreting experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Arabic",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior professional interpreting experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of Arabic interpreters for upcoming interpretation opportunities.",
+        "This is an opportunity to join our growing international interpreter network and support healthcare providers and patients through accurate, professional, and culturally appropriate language services.",
+        "No prior professional interpreting experience is required. We welcome qualified candidates from around the world who are fluent in English and Arabic and are interested in building experience in the interpreting field."
+      ],
+      "responsibilities": [
+        "Provide accurate and culturally appropriate interpretation between English and Arabic.",
+        "Facilitate clear communication between healthcare providers and patients during medical appointments and healthcare interactions.",
+        "Interpret conversations accurately while maintaining the meaning, tone, and intent of the original communication.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote interpretation.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned interpretation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Arabic, including Modern Standard Arabic and at least one major regional dialect.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional and healthcare-related conversations.",
+        "Quiet and professional workspace suitable for remote interpretation.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior professional interpreting experience required."
+      ],
+      "preferredQualifications": [
+        "Medical Interpreter Certification.",
+        "HIPAA Certification.",
+        "Previous experience with OPI (Over-the-Phone Interpretation).",
+        "Previous experience with VRI (Video Remote Interpretation).",
+        "Previous healthcare, customer service, or language-services experience.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Medical Interpreter Certificate, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior interpreting experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Arabic language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Interpreter orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global interpreter network and may be contacted for future interpretation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "Whether you are an experienced interpreter or new to professional interpreting, if you have strong English and Arabic language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global interpreter network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Arabic Interpreter — Remote Worldwide",
+        "description": "Remote worldwide interpreter opportunity for fluent English–Arabic speakers. Independent contractor, flexible schedule, no prior interpreting experience required."
+      }
+    },
+    {
+      "id": "DFX-INT-151",
+      "slug": "brazilian-portuguese-interpreter",
+      "title": "Brazilian Portuguese Interpreter",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Interpretation",
+      "languages": ["Portuguese"],
+      "languagePairs": "English–Brazilian Portuguese",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Portuguese"],
+      "summary": "Defrilex is expanding its global network of Brazilian Portuguese interpreters. Support healthcare providers and patients through accurate, professional, and culturally appropriate language services. No prior professional interpreting experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Brazilian Portuguese",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior professional interpreting experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of Brazilian Portuguese interpreters for upcoming interpretation opportunities.",
+        "This is an opportunity to join our growing international interpreter network and support healthcare providers and patients through accurate, professional, and culturally appropriate language services.",
+        "No prior professional interpreting experience is required. We welcome qualified candidates from around the world who are fluent in English and Brazilian Portuguese and are interested in building experience in the interpreting field."
+      ],
+      "responsibilities": [
+        "Provide accurate and culturally appropriate interpretation between English and Brazilian Portuguese.",
+        "Facilitate clear communication between healthcare providers and patients during medical appointments and healthcare interactions.",
+        "Interpret conversations accurately while maintaining the meaning, tone, and intent of the original communication.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote interpretation.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned interpretation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Brazilian Portuguese.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional and healthcare-related conversations.",
+        "Quiet and professional workspace suitable for remote interpretation.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior professional interpreting experience required."
+      ],
+      "preferredQualifications": [
+        "Medical Interpreter Certification.",
+        "HIPAA Certification.",
+        "Previous experience with OPI (Over-the-Phone Interpretation).",
+        "Previous experience with VRI (Video Remote Interpretation).",
+        "Previous healthcare, customer service, or language-services experience.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Medical Interpreter Certificate, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior interpreting experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Brazilian Portuguese language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Interpreter orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global interpreter network and may be contacted for future interpretation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "Whether you are an experienced interpreter or new to professional interpreting, if you have strong English and Brazilian Portuguese language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global interpreter network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Brazilian Portuguese Interpreter — Remote Worldwide",
+        "description": "Remote worldwide interpreter opportunity for fluent English–Brazilian Portuguese speakers. Independent contractor, flexible schedule, no prior interpreting experience required."
+      }
+    },
+    {
+      "id": "DFX-INT-167",
+      "slug": "vietnamese-interpreter",
+      "title": "Vietnamese Interpreter",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Interpretation",
+      "languages": ["Vietnamese"],
+      "languagePairs": "English–Vietnamese",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Vietnamese"],
+      "summary": "Defrilex is expanding its global network of Vietnamese interpreters. Support healthcare providers and patients through accurate, professional, and culturally appropriate language services. No prior professional interpreting experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Vietnamese",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior professional interpreting experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of Vietnamese interpreters for upcoming interpretation opportunities.",
+        "This is an opportunity to join our growing international interpreter network and support healthcare providers and patients through accurate, professional, and culturally appropriate language services.",
+        "No prior professional interpreting experience is required. We welcome qualified candidates from around the world who are fluent in English and Vietnamese and are interested in building experience in the interpreting field."
+      ],
+      "responsibilities": [
+        "Provide accurate and culturally appropriate interpretation between English and Vietnamese.",
+        "Facilitate clear communication between healthcare providers and patients during medical appointments and healthcare interactions.",
+        "Interpret conversations accurately while maintaining the meaning, tone, and intent of the original communication.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote interpretation.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned interpretation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Vietnamese.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional and healthcare-related conversations.",
+        "Quiet and professional workspace suitable for remote interpretation.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior professional interpreting experience required."
+      ],
+      "preferredQualifications": [
+        "Medical Interpreter Certification.",
+        "HIPAA Certification.",
+        "Previous experience with OPI (Over-the-Phone Interpretation).",
+        "Previous experience with VRI (Video Remote Interpretation).",
+        "Previous healthcare, customer service, or language-services experience.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Medical Interpreter Certificate, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior interpreting experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Vietnamese language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Interpreter orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global interpreter network and may be contacted for future interpretation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "Whether you are an experienced interpreter or new to professional interpreting, if you have strong English and Vietnamese language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global interpreter network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Vietnamese Interpreter — Remote Worldwide",
+        "description": "Remote worldwide interpreter opportunity for fluent English–Vietnamese speakers. Independent contractor, flexible schedule, no prior interpreting experience required."
+      }
+    },
+    {
+      "id": "DFX-TRN-053",
+      "slug": "healthcare-document-translator-spanish",
+      "title": "Healthcare Document Translator, English and Spanish",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Translation",
+      "languages": ["Spanish"],
+      "languagePairs": "English–Spanish",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Project based, flexible deadlines by assignment",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Spanish"],
+      "summary": "Defrilex is expanding its global network of healthcare document translators working between English and Spanish. Translate member-facing healthcare materials with accuracy, clarity, and cultural appropriateness.",
+      "cardHighlights": [
+        "Native or near-native written fluency in English and Spanish",
+        "Strong writing, editing, and proofreading skills in both languages",
+        "Reliable high-speed internet and a computer suitable for translation work"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of healthcare document translators for upcoming translation opportunities.",
+        "This is an opportunity to join our growing international network of language professionals and support healthcare organizations through accurate, professional, and culturally appropriate written translation.",
+        "We welcome qualified candidates from around the world who have strong written fluency in English and Spanish and are interested in healthcare translation work."
+      ],
+      "responsibilities": [
+        "Translate healthcare and member-facing documents between English and Spanish.",
+        "Preserve the meaning, tone, and intent of the source document in every translation.",
+        "Apply plain-language principles so that materials remain clear to patients and members.",
+        "Maintain consistent terminology across documents within the same assignment.",
+        "Proofread and quality-check your own work before delivery.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Meet agreed delivery deadlines for each assignment.",
+        "Follow Defrilex procedures and quality standards for all assigned translation opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native written fluency in English and Spanish.",
+        "Strong writing, editing, and proofreading skills in both languages.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to translate professional and healthcare-related content accurately.",
+        "Quiet and professional workspace suitable for remote translation work.",
+        "Reliable high-speed internet connection.",
+        "Computer capable of running standard document and translation software.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements."
+      ],
+      "preferredQualifications": [
+        "ATA certification or an equivalent translation credential.",
+        "HIPAA Certification.",
+        "Experience with CAT tools such as Trados or memoQ.",
+        "Previous experience translating healthcare or other regulated content.",
+        "Familiarity with plain-language and language-access requirements for member materials.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Translation certificate or credential, if applicable.",
+        "Sample translations or a portfolio, if available."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Project based, with flexible deadlines by assignment"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Spanish language proficiency assessment.",
+        "Translation sample or test, when applicable.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global network of language professionals and may be contacted for future translation opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between healthcare providers and patients.",
+        "If you have strong written English and Spanish skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global network and help make healthcare communication more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Healthcare Document Translator, English & Spanish — Remote Worldwide",
+        "description": "Remote worldwide healthcare translation opportunity for English–Spanish translators. Independent contractor, project based, flexible deadlines."
+      }
+    },
+    {
+      "id": "DFX-CX-241",
+      "slug": "bilingual-customer-service-representative-spanish",
+      "title": "Bilingual Customer Service Representative, Spanish and English",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Customer Experience",
+      "languages": ["Spanish"],
+      "languagePairs": "English–Spanish",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Spanish"],
+      "summary": "Defrilex is expanding its global network of bilingual customer service representatives. Support members and customers in Spanish and English across phone, chat, and email. No prior contact centre experience required.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Spanish",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset",
+        "No prior contact centre experience required"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of bilingual customer service representatives for upcoming support opportunities.",
+        "This is an opportunity to join our growing international network and help organisations serve their Spanish-speaking members and customers with clear, professional, and culturally appropriate support.",
+        "No prior contact centre experience is required. We welcome qualified candidates from around the world who are fluent in English and Spanish and are interested in building experience in customer support."
+      ],
+      "responsibilities": [
+        "Handle inbound customer and member enquiries in Spanish and English across phone, chat, and email.",
+        "Answer questions about accounts, benefits, orders, eligibility, and service issues.",
+        "Document each interaction accurately in the client system.",
+        "Escalate or transfer enquiries that require specialist handling.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow HIPAA requirements and all applicable client-specific guidelines.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote support work.",
+        "Complete required language proficiency and client qualification assessments.",
+        "Follow Defrilex procedures and quality standards for all assigned support opportunities."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Spanish.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Strong understanding of cultural nuances in both languages.",
+        "Ability to communicate clearly and accurately in professional conversations.",
+        "Comfortable typing and navigating multiple systems while speaking with a customer.",
+        "Quiet and professional workspace suitable for remote support work.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow HIPAA and client-specific requirements.",
+        "No prior contact centre experience required."
+      ],
+      "preferredQualifications": [
+        "HIPAA Certification.",
+        "Previous customer service, contact centre, or BPO experience.",
+        "Previous healthcare member services experience, including enrolment, billing, or claims.",
+        "Experience with CRM or helpdesk platforms.",
+        "Experience working with healthcare terminology."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "HIPAA Certificate, if available.",
+        "Customer service or contact centre training certificates, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand",
+        "No prior contact centre experience required"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Spanish language proficiency assessment.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements.",
+        "Programme orientation or training, when applicable."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global network and may be contacted for future support opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between organisations and the people they serve.",
+        "Whether you are an experienced agent or new to customer support, if you have strong English and Spanish language skills and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global network and help make service more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Bilingual Customer Service Representative, Spanish & English — Remote Worldwide",
+        "description": "Remote worldwide bilingual customer support opportunity for fluent English–Spanish speakers. Independent contractor, flexible schedule, no prior experience required."
+      }
+    },
+    {
+      "id": "DFX-CX-271",
+      "slug": "bilingual-technical-support-agent-spanish",
+      "title": "Bilingual Technical Support Agent, Spanish and English",
+      "status": "Actively hiring",
+      "live": true,
+      "datePosted": "2026-08-10",
+      "validThrough": "2026-11-08",
+      "employmentType": "CONTRACTOR",
+      "category": "Customer Experience",
+      "languages": ["Spanish"],
+      "languagePairs": "English–Spanish",
+      "workType": "Remote — Independent Contractor",
+      "location": "Worldwide / Work from Anywhere",
+      "schedule": "Flexible, based on client demand",
+      "tags": ["Remote · Worldwide", "Independent contractor", "Spanish"],
+      "summary": "Defrilex is expanding its global network of bilingual technical support agents. Troubleshoot account, application, and connectivity issues in Spanish and English across phone, chat, and email.",
+      "cardHighlights": [
+        "Native or near-native fluency in English and Spanish",
+        "Comfortable troubleshooting software, account, and connectivity issues",
+        "Quiet workspace, reliable high-speed internet, and a quality USB headset"
+      ],
+      "intro": [
+        "Defrilex is expanding its global network of bilingual technical support agents for upcoming support opportunities.",
+        "This is an opportunity to join our growing international network and help users resolve technical issues with clear, professional, and culturally appropriate support in Spanish and English.",
+        "We welcome qualified candidates from around the world who are fluent in English and Spanish and comfortable working through technical problems with a customer."
+      ],
+      "responsibilities": [
+        "Provide first-line technical support in Spanish and English across phone, chat, and email.",
+        "Troubleshoot account access, application, and connectivity issues.",
+        "Guide customers through resolution steps clearly and patiently.",
+        "Document each interaction and ticket accurately in the client system.",
+        "Escalate unresolved or complex issues to the appropriate team.",
+        "Maintain professionalism, confidentiality, neutrality, and impartiality at all times.",
+        "Follow all applicable client-specific guidelines and security requirements.",
+        "Handle sensitive and confidential information responsibly.",
+        "Maintain a quiet, professional environment suitable for remote support work.",
+        "Complete required language proficiency and client qualification assessments."
+      ],
+      "minimumRequirements": [
+        "Native or near-native fluency in English and Spanish.",
+        "Excellent communication, listening, and comprehension skills.",
+        "Ability to explain technical steps clearly to non-technical users.",
+        "Comfortable troubleshooting software, account, and connectivity issues.",
+        "Comfortable typing and navigating multiple systems while speaking with a customer.",
+        "Quiet and professional workspace suitable for remote support work.",
+        "Reliable high-speed internet connection.",
+        "Computer with a quality USB headset and functioning microphone.",
+        "Ability to pass required language proficiency and client qualification assessments.",
+        "Ability to maintain confidentiality and follow client-specific requirements."
+      ],
+      "preferredQualifications": [
+        "Previous technical support or help desk experience.",
+        "Experience with ticketing platforms such as Zendesk or similar.",
+        "Familiarity with common operating systems, browsers, and mobile applications.",
+        "Previous customer service, contact centre, or BPO experience.",
+        "IT or technical support certifications."
+      ],
+      "preferredNote": "Candidates without these qualifications are still encouraged to apply.",
+      "documentsRequired": [
+        "Updated Resume/CV.",
+        "Government-issued ID.",
+        "EF SET English Certificate or equivalent English proficiency assessment."
+      ],
+      "documentsOptional": [
+        "Technical support or IT certificates, if available.",
+        "Customer service or contact centre training certificates, if applicable."
+      ],
+      "documentsNote": "Having the optional certifications may strengthen your application but is not required to apply.",
+      "workTypeBullets": [
+        "100% Remote",
+        "Worldwide",
+        "Independent Contractor",
+        "Flexible schedule based on client demand"
+      ],
+      "workTypeNote": "Opportunities may vary based on client demand, language needs, qualifications, availability, and successful completion of required assessments.",
+      "process": [
+        "Application and document review.",
+        "English language proficiency verification.",
+        "Spanish language proficiency assessment.",
+        "Technical assessment, when applicable.",
+        "Client-specific qualification assessments, when applicable.",
+        "Onboarding and compliance requirements."
+      ],
+      "processNote": "Successful candidates will be added to the Defrilex global network and may be contacted for future support opportunities based on client demand and availability.",
+      "about": [
+        "Defrilex is building a reliable global network of language professionals to help bridge communication gaps between organisations and the people they serve.",
+        "If you have strong English and Spanish language skills, enjoy solving technical problems, and meet the technical and application requirements, we encourage you to apply.",
+        "Join the Defrilex global network and help make support more accessible — from anywhere in the world."
+      ],
+      "seo": {
+        "title": "Bilingual Technical Support Agent, Spanish & English — Remote Worldwide",
+        "description": "Remote worldwide bilingual technical support opportunity for fluent English–Spanish speakers. Independent contractor, flexible schedule."
+      }
+    }
+  ]
+}
